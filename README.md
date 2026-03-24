@@ -7,6 +7,8 @@ I design and build production-grade distributed systems end-to-end: architecture
 
 My specialty is high-stakes systems where correctness, uptime, performance, and adversarial behavior all matter at the same time: full-stack platforms, quant execution engines, event-driven systems, monorepos/microservices, blockchain/DeFi infrastructure, and complex SaaS platforms.
 
+Most production work is private/NDA. This profile is a public summary + NDA-safe artifacts; I prove fit inside your repo via PRs.
+
 I’ve architected and shipped:
 
 • Quantitative execution engines (sub-second decision loops, multi-relay submission, deterministic retry logic, failure isolation, multi-endpoint submission patterns)
