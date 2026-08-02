@@ -1,117 +1,53 @@
-**Blockchain & Systems Architect | Quant Execution Systems**
+# Tony Guillaro
 
+### AI Systems & Solutions Engineer · Forward-Deployed Engineering · Full-Stack & Platform Systems
 
-AI-accelerated, agentic delivery — fast execution with strict validation; I own architecture and deliver production-grade code quality.
+I turn ambiguous, high-stakes business and operational problems into production software. As the founder of **Forge Work Engineering**, I own the complete outcome: requirements discovery, system architecture, implementation, integrations, infrastructure, deployment, observability, troubleshooting, and long-term reliability.
 
-I design and build production-grade distributed systems end-to-end: architecture, implementation, deployment, observability, and long-term reliability.
+My work spans AI and agentic systems, distributed services, full-stack platforms, automation, quantitative and financial systems, cloud infrastructure, and complex third-party integrations. I work across technical and nontechnical boundaries, translating rough objectives and domain knowledge into systems people can safely operate and depend on.
 
-My specialty is high-stakes systems where correctness, uptime, performance, and adversarial behavior all matter at the same time: full-stack platforms, quant execution engines, event-driven systems, monorepos/microservices, blockchain/DeFi infrastructure, and complex SaaS platforms.
+I use AI-native engineering workflows to increase execution speed while retaining responsibility for architecture, acceptance criteria, validation, security, and production behavior.
 
-Most production work is private/NDA. This profile is a public summary + NDA-safe artifacts; I prove fit inside your repo via PRs.
+## What I Build
 
-I’ve architected and shipped:
+- AI and agentic systems coordinating models, agents, tools, context, memory, workflows, and external services
+- Full-stack SaaS and platform systems spanning user experience, APIs, data, infrastructure, and operations
+- Distributed and event-driven services designed for reliability, performance, failure isolation, and recovery
+- Automation that turns fragmented operational processes into governed, observable execution paths
+- Cloud infrastructure, deployment pipelines, monitoring, and operational tooling
+- Modernization of complex systems into modular, testable, maintainable architectures
 
-• Quantitative execution engines (sub-second decision loops, multi-relay submission, deterministic retry logic, failure isolation, multi-endpoint submission patterns)
-• Blockchain-based economic systems and smart contracts (upgradeability strategy, emission controls, safety-first integration)
-• Multi-tenant SaaS/PaaS platforms with compliance-aligned controls (CMMC/FedRAMP-aligned environments)
-• Payment and e-commerce infrastructure with high-throughput transaction flows, idempotent settlement, reconciliation, and chargeback/edge-case handling
+## Current Focus: Nerva
 
-I approach systems as end-to-end execution paths, not isolated modules — incentives, attack surfaces, performance budgets, and operational failure modes are part of the architecture.
+**Nerva** is a proprietary, model- and provider-agnostic operating system for human-AI collaboration: a universal core and adaptive Mission Control through which people can turn objectives into coordinated operations across agents, models, tools, context, memory, workflows, and existing systems.
 
----
+Rather than making chat the product, Nerva centers the operation—the complete path from intent and context through execution, evidence, review, and recovery—so people can delegate meaningful work without surrendering visibility or control.
 
-AI-Forward Engineering (Spec → Evals → PRs)
-I don’t bolt AI onto messy workflows. I redesign delivery so AI tools increase velocity safely.
+Building Nerva requires translating a broad, unsolved problem into a coherent product model, system architecture, integration and data boundaries, operator experience, governance model, and reliability requirements.
 
-My AI-forward loop:
+## Technical Focus
 
-1.  Translate goals into a clear spec, boundaries, and acceptance criteria
-2. Review the current system to identify constraints, leverage points, and risk
-3. Use AI-assisted/agentic workflows to accelerate implementation and refactoring
-4. Validate with tests + scenario-based checks (verify behavior, not just “green builds”)
-5. Deliver changes as PRs with documentation, rollback safety, and observability updates
+- **Languages:** Python, TypeScript/Node.js, Rust, Go, Solidity
+- **AI systems:** Model and provider abstraction, agent orchestration, tool integration, retrieval and grounding, structured outputs, evaluation, fallback, recovery, and observability
+- **Backend and APIs:** REST, GraphQL, WebSockets, event-driven systems, microservices, monorepos, and third-party integrations
+- **Frontend:** React, Next.js, Vue, React Native, and Electron
+- **Data:** PostgreSQL, MySQL, MongoDB, and Redis
+- **Cloud and infrastructure:** AWS, Azure, Google Cloud, Docker, Kubernetes, Terraform, CI/CD, monitoring, and incident readiness
+- **Specialized systems:** Quantitative execution, payment infrastructure, blockchain/DeFi, EVM ecosystems, and compliance-aligned platforms
 
----
+## How I Work
 
-How I work:
+1. Clarify the business objective, operational constraints, and real failure surface.
+2. Define system boundaries, success criteria, and what should—and should not—be automated.
+3. Model the complete execution path before committing to implementation.
+4. Build in production-ready increments with clear interfaces, validation, observability, and recovery.
+5. Explain technical constraints and tradeoffs plainly so stakeholders can make informed decisions.
+6. Remain accountable after the demonstration becomes a production system.
 
-I don’t start with random implementation. I start with system modeling.
+## About This GitHub
 
-1.  Clarify business goals, constraints, and adversarial risk surface
-2. Define architectural boundaries, success metrics
-3. Perform forensic review of the codebase and operational posture
-4. Define rollout plan, execution milestones, and validation gates (tests/observability/rollback)
-5. Implement in hardened, production-ready increments
-6. Modernize legacy systems for maintainability + AI-reasoning boundaries (modularity, testability, clear interfaces)
-7. Deploy safely and operate reliably (monitoring, alerting, incident posture)
+Most of my original production work is private because it contains proprietary business logic, unreleased product IP, and sensitive implementation details.
 
----
+The public forks on this account are working copies of open-source projects retained for evaluation, adaptation, experimentation, or potential integration. They are not presented as my original authorship. Private contribution activity is included on my profile.
 
-Core Technical Strengths:
-
-• Backend & platform: TypeScript/Node.js, Python, Rust, Go
-• APIs: GraphQL, REST, WebSockets, event-driven architectures
-• Frontend: React, Next.js, Vue
-• Data layer: PostgreSQL, MySQL, MongoDB, Redis
-• Cloud & infra: AWS, Azure, Docker, Kubernetes, Terraform, AWS CDK, CI/CD (GitHub Actions-style workflows)
-• Integrations: Stripe, PayPal, third-party APIs
-• Architecture: monorepo, microservices, modular boundaries, testability, performance + reliability engineering
-• Web3: EVM ecosystems, Solidity, DeFi execution systems
-• Mobile & Desktop: React Native, Electron, cross-platform development
-
----
-
-What Clients Hire Me For:
-
-• Senior architecture & technical planning that prevents expensive rewrites
-• AI-forward modernization (improving modularity, testability, and reasoning boundaries)
-• Blockchain architecture & token mechanics
-• Quantitative automation pipelines and execution systems
-• MEV and adversarial DeFi systems
-• Enterprise SaaS platform design
-• Security-conscious implementation and smart contract integration
-• High-performance distributed systems
-• Reliability engineering, infrastructure hardening, and DevOps automation
-
----
-
-Typical First Engagement (Preferred)
-
-I usually start with a 3–5 day paid diagnostic sprint instead of theoretical interviews.
-
-You get:
-
-• A fast architecture map of what you actually have today
-• A prioritized roadmap (highest ROI fixes first)
-• Concrete improvements shipped as PRs (1–3 PRs depending on scope)
-• Clear validation gates (tests, scenario checks, rollback safety, and operational hardening)
-
-This creates real signal on both sides: you see how I work inside your codebase, and we avoid long conversations about hypotheticals.
-
----
-
-What You Can Expect:
-
-• Whole-system thinking: I map and model the entire execution path (UI → API → data → infra → ops) so changes improve the overall system and user experience, not just a single module.
-• AI-forward full-stack delivery (Node/React/GraphQL/AWS)
-• Clear specs and architecture documentation
-• Clean, maintainable, production-quality code
-• Proactive updates and transparent communication
-• Practical tradeoff guidance (speed vs. quality vs. cost)
-• Predictable delivery and accountable ownership
-
-If you need a senior engineer who can own the technical path from architecture to hardened production — especially in complex, high-risk systems — let’s talk.
-<!--
-**TonyG-FWE/TonyG-FWE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am interested in senior AI systems, solutions engineering, forward-deployed engineering, platform engineering, and full-stack roles where I can own the path from an unclear problem to a reliable production outcome.
