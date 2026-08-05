@@ -55,6 +55,6 @@ Both work samples intentionally omit proprietary source code, prompts, schemas, 
 
 Most of my original production work is private because it contains proprietary business logic, unreleased product IP, and sensitive implementation details.
 
-The public forks on this account are working copies of open-source projects retained for evaluation, adaptation, experimentation, or potential integration. They are not presented as my original authorship. Private contribution activity is included on my profile.
+The public forks on this account are working copies of open-source projects retained for evaluation, adaptation, experimentation, or potential integration. They are not presented as my original authorship.
 
 I am interested in senior AI systems, solutions engineering, forward-deployed engineering, platform engineering, and full-stack roles where I can own the path from an unclear problem to a reliable production outcome.
