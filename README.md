@@ -25,6 +25,13 @@ Rather than making chat the product, Nerva centers the operation—the complete 
 
 Building Nerva requires translating a broad, unsolved problem into a coherent product model, system architecture, integration and data boundaries, operator experience, governance model, and reliability requirements.
 
+## Selected Work
+
+- **[Operating a Bounded Software-Engineering Agent for 26.4 Hours](work-samples/operating-a-bounded-software-engineering-agent.md)** — An internal-production case study of Build Ops: extended agent execution with explicit authority boundaries, persistent state, evidence, interruption, and recovery.
+- **[Designing the Command Layer for Agentic Work](work-samples/designing-the-command-layer-for-agentic-work.md)** — A non-proprietary engineering reasoning brief showing how I translated agentic-system failure modes into operational invariants, tradeoffs, and recovery design for Nerva.
+
+Both work samples intentionally omit proprietary source code, prompts, schemas, infrastructure, security mechanisms, and implementation details.
+
 ## Technical Focus
 
 - **Languages:** Python, TypeScript/Node.js, Rust, Go, Solidity
