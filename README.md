@@ -19,7 +19,7 @@ I use AI-native engineering workflows to increase execution speed while retainin
 
 ## Current Focus: Nerva
 
-**Nerva** is a proprietary, model- and provider-agnostic operating system for human-AI collaboration: a universal core and adaptive Mission Control through which people can turn objectives into coordinated operations across agents, models, tools, context, memory, workflows, and existing systems.
+**Nerva** is a proprietary, model- and provider-agnostic command system for governed AI work. It provides a universal core and adaptive Mission Control through which people can turn objectives into coordinated operations across agents, models, tools, context, memory, workflows, and existing systems.
 
 Rather than making chat the product, Nerva centers the operation—the complete path from intent and context through execution, evidence, review, and recovery—so people can delegate meaningful work without surrendering visibility or control.
 
@@ -27,7 +27,7 @@ Building Nerva requires translating a broad, unsolved problem into a coherent pr
 
 ## Selected Work
 
-- **[Operating a Bounded Software-Engineering Agent for 26.4 Hours](work-samples/operating-a-bounded-software-engineering-agent.md)** — An internal-production case study of Build Ops: extended agent execution with explicit authority boundaries, persistent state, evidence, interruption, and recovery.
+- **[Governing a Software-Engineering Objective Across 53+ Hours of Active Execution](work-samples/operating-a-bounded-software-engineering-agent.md)** — An internal-production case study of Build Ops: governed execution across linked runs with durable operating state, explicit authority boundaries, independent validation, interruption, and recovery.
 - **[Designing the Command Layer for Agentic Work](work-samples/designing-the-command-layer-for-agentic-work.md)** — A non-proprietary engineering reasoning brief showing how I translated agentic-system failure modes into operational invariants, tradeoffs, and recovery design for Nerva.
 
 Both work samples intentionally omit proprietary source code, prompts, schemas, infrastructure, security mechanisms, and implementation details.
