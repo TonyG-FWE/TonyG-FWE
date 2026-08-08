@@ -1,10 +1,10 @@
-# Operating a Bounded Software-Engineering Agent for 26.4 Hours
+# Governing a Software-Engineering Objective Across 53+ Hours of Active Execution
 
 **An internal-production case study based on Build Ops**  
 **Tony Guillaro | AI Systems & Forward-Deployed Engineer**  
-**Public, non-proprietary work sample | August 2026**
+**Public, non-proprietary work sample | Updated August 2026**
 
-Build Ops is a bounded, long-running software-engineering and orchestration system that I designed, integrated into my development environment, and use in active internal production while building Nerva. It turns explicitly scoped objectives into governed, multi-stage work against a real codebase while preserving the evidence, state, and authority boundaries needed to keep extended execution accountable.
+Build Ops is a bounded, long-running software-engineering and orchestration system that I designed, integrated into my development environment, and use in active internal production while building Nerva. It turns explicitly scoped objectives into governed, multi-stage work against a real codebase while preserving the durable operating state, evidence, and authority boundaries needed to keep extended execution accountable.
 
 This case study explains the operational problem, design choices, and observed behavior without disclosing source code, internal component names, prompts, schemas, thresholds, topology, security mechanisms, or Nerva's proprietary architecture.
 
@@ -18,7 +18,7 @@ The problem I set out to solve was therefore not simply:
 
 It was:
 
-> How can a software-engineering agent make useful progress over extended periods while remaining bounded, inspectable, interruptible, traceable, and recoverable?
+> How can a software-engineering system make useful progress over extended periods while remaining bounded, inspectable, interruptible, traceable, and recoverable?
 
 ## What I put into production
 
@@ -30,7 +30,7 @@ I designed Build Ops to translate an explicit engineering objective into a gover
 - automated tests and static validation;
 - runtime and browser verification;
 - Git and GitHub operations;
-- technical investigation;
+- technical investigation; and
 - evidence-backed closeout.
 
 The system is part of my day-to-day engineering workflow. It is not an unrestricted coding loop and it is not allowed to treat activity as completion. The objective, authority, available tools, execution budget, validation requirements, and consequential actions remain bounded throughout the operation.
@@ -45,9 +45,9 @@ Build Ops begins from a defined objective and acceptance posture rather than an 
 
 Tool availability does not grant blanket permission to use a tool in every way. Scoped access, command-safety controls, checkpoints, and human approval for consequential actions determine what the system may do during a particular operation.
 
-### 3. State must survive the session
+### 3. Durable operating state must outlive any run
 
-Persistent sessions, linked context handoffs, work orders, source changes, test results, decisions, validation records, and execution logs preserve the operation across checkpoints and blockers. A resumed run continues from retained technical and operational state rather than reconstructing the objective from a conversational summary.
+Persistent sessions and linked context and state handoffs preserve the explicitly scoped objective, active task, current action and its rationale, technical state, source changes, artifacts, decisions, validation evidence, execution history, and next safe action. A resumed run continues from known technical and operational state rather than reconstructing the objective from a conversational summary or depending on one continuously expanding conversation.
 
 ### 4. Execution cannot certify itself
 
@@ -57,35 +57,34 @@ Producing code or receiving a successful command response is not sufficient evid
 
 When execution reaches a condition it cannot safely resolve within its authority, it stops at the boundary, exposes the blocker and retained evidence, and waits for intervention. Once the blocker is addressed, the same objective can resume from preserved state.
 
-## Observed extended operation
+## Observed cumulative operation
 
-In one observed engineering objective, Build Ops executed across three governed segments:
+At an August 8, 2026 snapshot, one current engineering objective had accumulated **53 hours, 49 minutes, and 44 seconds of active execution across linked runs**. The objective was still in progress, so 53+ hours is a recorded floor rather than a final total.
 
-| Segment | Continuous execution | Transition |
-|---|---:|---|
-| 1 | 12.5 hours | Reached a blocker and stopped |
-| 2 | 7.0 hours | Resumed after intervention; reached a subsequent blocker |
-| 3 | 6.9 hours | Resumed again from retained state |
-| **Total** | **26.4 hours** | **One bounded objective across three linked segments** |
+This is a cumulative record of active work on the same objective, not a claim that one process ran continuously or unattended. The total comes from turn-level runtime records covering reasoning, tool use, reviews, file work, and subagent coordination. Inactive gaps between runs are excluded, and parallel subagent work is included within run wall-clock time without being double-counted.
 
-The important result was not simply the duration. The system preserved the objective, working context, artifacts, decisions, validation evidence, and execution history across both interruptions. I could inspect progress, address each blocker, redirect or stop the operation if necessary, and resume without discarding accountability or starting over.
+The duration itself is not the achievement. Throughout the operation, Build Ops retained the goal, active task, current action, prior decisions and changes, technical state, artifacts, validation evidence, execution history, and next safe action. I could inspect progress, stop or redirect the work, address blockers, and resume from a known state without silently changing the objective or discarding accountability.
+
+Elapsed time alone does not determine progress or completion. Progress is represented by source-backed state, artifacts, decisions, validation evidence, and safe next actions. Completion requires evidence; the system cannot declare itself finished merely because it remained active or produced code.
 
 ## What this demonstrates
 
 Build Ops demonstrates an approach to meaningful engineering autonomy that is:
 
 - **Bounded:** explicit scope, authority, tools, and finite budgets limit the operation;
+- **Stateful:** the objective, current work, evidence, and next safe action survive run boundaries;
+- **Context-disciplined:** continuity comes from durable operating state and deliberate handoffs, not an indefinitely expanding conversation;
 - **Observable:** progress, artifacts, decisions, tests, and execution records remain available for inspection;
 - **Interruptible:** I can pause, stop, or redirect work when conditions change;
 - **Traceable:** retained provenance connects the objective to changes, evidence, and decisions;
-- **Recoverable:** blockers and resumed runs remain part of one durable operational history;
+- **Recoverable:** blockers and resumed runs remain part of one durable operational history; and
 - **Evidence-backed:** closeout depends on validation rather than agent narration alone.
 
 The broader engineering lesson is that longer runtime is not the same as reliable autonomy. Extended operation becomes useful only when the system can retain truth, respect authority boundaries, expose uncertainty, stop safely, and resume from evidence-bearing state.
 
 ## My role
 
-I designed Build Ops's architecture and Nerva-specific governance model, integrated its runtime into my development environment, and operate it as part of my production engineering workflow. My work spans the system model, authority boundaries, execution controls, state and provenance behavior, validation posture, operator oversight, and recovery path.
+I designed the Build Ops architecture, framework, harness, and Nerva-specific governance model; integrated its runtime into my development environment; and operate it as part of my production engineering workflow. My work spans the system model, authority boundaries, execution controls, durable state and provenance, validation posture, operator oversight, and recovery path.
 
 ## Public scope and intellectual-property boundary
 
