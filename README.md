@@ -53,8 +53,8 @@ Both work samples intentionally omit proprietary source code, prompts, schemas, 
 
 ## About This GitHub
 
-Most of my original production work is private because it contains proprietary business logic, unreleased product IP, and sensitive implementation details.
+Most of my production work is private because it contains proprietary business logic, unreleased product IP, work with government agencies and sensitive implementation details.
 
-The public forks on this account are working copies of open-source projects retained for evaluation, adaptation, experimentation, or potential integration. They are not presented as my original authorship.
+The public forks on this account are working copies of open-source projects retained for evaluation, adaptation, experimentation, or potential integrations. They are not presented as my original authorship.
 
 I am interested in senior AI systems, solutions engineering, forward-deployed engineering, platform engineering, and full-stack roles where I can own the path from an unclear problem to a reliable production outcome.
