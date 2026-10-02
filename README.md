@@ -21,7 +21,7 @@ I use AI-native engineering workflows to increase execution speed while retainin
 
 **Nerva** is a proprietary, model- and provider-agnostic command system for governed AI work. It provides a universal core and adaptive Mission Control through which people can turn objectives into coordinated operations across agents, models, tools, context, memory, workflows, and existing systems.
 
-Rather than making chat the product, Nerva centers the operation—the complete path from intent and context through execution, evidence, review, and recovery—so people can delegate meaningful work without surrendering visibility or control.
+Rather than making chat the product, Nerva centers the operation—the complete path from intent and context through execution, evidence, review, and recovery, so people can delegate meaningful work without surrendering visibility or control.
 
 Building Nerva requires translating a broad, unsolved problem into a coherent product model, system architecture, integration and data boundaries, operator experience, governance model, and reliability requirements.
 
