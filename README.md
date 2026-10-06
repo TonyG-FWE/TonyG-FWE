@@ -8,6 +8,10 @@ My work spans AI and agentic systems, distributed services, full-stack platforms
 
 I use AI-native engineering workflows to increase execution speed while retaining responsibility for architecture, acceptance criteria, validation, security, and production behavior.
 
+## Recognition
+
+**1st Place — Nerdy AI Hackathon Challenge | 2026**
+
 ## What I Build
 
 - AI and agentic systems coordinating models, agents, tools, context, memory, workflows, and external services
