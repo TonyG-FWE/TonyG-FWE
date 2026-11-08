@@ -1,6 +1,6 @@
 # Tony Guillaro
 
-### AI Systems & Solutions Engineer · Forward-Deployed Engineering · Full-Stack & Platform Systems
+### AI Systems & Solutions & Product Engineer · Agentic Engineering · Full-Stack & Platform Systems
 
 I turn ambiguous, high-stakes business and operational problems into production software. As the founder of **Forge Work Engineering**, I own the complete outcome: requirements discovery, system architecture, implementation, integrations, infrastructure, deployment, observability, troubleshooting, and long-term reliability.
 
